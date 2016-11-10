@@ -15,7 +15,7 @@ func main(){
 
 func handler(w http.ResponseWriter, r *http.Request){
 	var x = r.Referer()
-	fmt.Fprintf(w, "Hello World\n")
+	fmt.Fprintf(w, "Hello Mark\n")
 	fmt.Fprintf(w, x)
 }
 
